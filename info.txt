@@ -6,261 +6,65 @@
 	"Package" "Radelite_package"
 }
 
-"Item"
+"Style"
 {
-	"ID" "ITEM_FIRE_PANEL"
-	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
-	"Version"
-		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
-		"Styles"
-			{
-			"ANY_STYLE" "fire_panel"
-			}
-		}
+	"ID" "EZ102_RATMAN"
+	"Authors" "Radelite, ENDERZOMBI102"
+	"Name" "Ratman"
+	"ShortName" "Ratman"
+	"Folder" "ratman"
+	"Icon" "styles/ratman.png"
+	"IconLarge" "styles/ratman.png"
+	"VPK_Name" "VPK_BEE2_BTS"
+	"Has_Video" "0"
+	"Base" ""
+	"Description"
+	{
+		"" "original description:"
+		"" "Trial for my own style in bee2"
+		"" ""
+		"" "The ratman style is a mix of overgrowt, destroyed and clean"
+		"" "this style was for BEE2.2, but ENDERZOMBI102 ported it to BEE2.4 :D"
 	}
+	"HasVideo" "0"
+	"Suggested"
+	{
+		"Quote" "BEE2_ANNOUNCER_BTS"
+		"Music" "VALVE_ROBO_GHOST"
+		"Skybox" "VALVE_3D_FACTORY"
+	}
+	"Corridors"
+	{
+		"icon_folder" "bts"
+		"Sp_entry"
+		{
+			"3" "Danger"
+			"4" "Conveyor"
+			"5" "(Not present)"
+			"6" "(Not present)"
+			"7" "(Not present)"
+		}
+		"Sp_exit"
+		{
 
-"Item"
-	{
-	"ID" "ITEM_WATER_BLOCK"
-	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
-	"Version"
-		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
-		"Styles"
-			{
-			"ANY_STYLE" "water_block"
-			}
 		}
-	}
-	
-"Item"
-	{
-	"ID" "ITEM_PORTAL_DETECTOR"
-	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
-	"Version"
+		"Coop"
 		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
-		"Styles"
-			{
-				"BEE2_PORTAL_1" "portal_detector_p1"
-				"ANY_STYLE" "portal_detector_p2"
-			}
-		}
-	}
 
-"Item"
-	{
-	"ID" "EMBEDDED_BUTTONS"
-	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
-	"Version"
-		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
-		"Styles"
-			{
-			"ANY_STYLE" "embedded_buttons"
-			}
-		}
-	}
-	
-"Item"
-	{
-	"ID" "ITEM_ACTIVATOR_CUBES"
-	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
-	"Version"
-		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
-		"Styles"
-			{
-			"ANY_STYLE" "activator_cubes"
-			}
-		}
-	}
-	
-"Item"
-	{
-	"ID" "ITEM_TURRET_DETECTOR"
-	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
-	"Version"
-		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
-		"Styles"
-			{
-			"ANY_STYLE" "turret_detector"
-			}
-		}
-	}
-	
-"Item"
-	{
-	"ID" "ITEM_GRAVITY_GUN"
-	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
-	"Version"
-		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
-		"Styles"
-			{
-			"ANY_STYLE" "gravity_gun_mk1"
-			}
-		}
-	}
-	
-"Item"
-	{
-	"ID" "ITEM_GRAVITY_GUN_MARK_2"
-	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
-	"Version"
-		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
-		"Styles"
-			{
-			"ANY_STYLE" "gravity_gun_mk2"
-			}
-		}
-	}
-	
-"Item"
-	{
-	"ID" "ITEM_PAINT_GUN" 
-	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
-	"Version"
-		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
-		"Styles"
-			{
-			"ANY_STYLE"  "paint_gun_mk1"
-			}
-		}
-	}
-	
-"Item"
-	{
-	"ID" "ITEM_PAINT_GUN_MARK_2"
-	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
-	"Version"
-		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
-		"Styles"
-			{
-			"ANY_STYLE" "paint_gun_mk2"
-			}
-		}
-	}
-	
-"Item"
-	{
-	"ID" "ITEM_RADIO"
-	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
-	"Version"
-		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
-		"Styles"
-			{
-			"BEE2_CLEAN" "radio_clean"
-			"BEE2_OVERGROWN" "radio_over"
-			"BEE2_PORTAL_1" "radio_p1"
-			"ANY_STYLE" "radio_clean"
-			}
-		}
-	}
-	
-"Item"
-	{
-	"ID" "ITEM_SKYBOX_AREA"
-	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
-	"Version"
-		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
-		"Styles"
-			{
-			"ANY_STYLE" "skybox"
-			}
-		}
-	}
-	
-	"Item"
-	{
-	"ID" "ITEM_LIVING_PANEL_LARGE"
-	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
-	"Version"
-		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
-		"Styles"
-			{
-			"ANY_STYLE" "living_panel_large"
-			}
-		}
-	}
-	
-	"Item"
-	{
-	"ID" "ITEM_LIVING_PANEL"
-	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
-	"Version"
-		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
-		"Styles"
-			{
-			"ANY_STYLE" "living_panel"
-			}
-		}
-	}
 
-	"Item"
-	{
-	"ID" "ITEM_TRIGGER_KILL"
-	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
-	"Version"
-		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
-		"Styles"
-			{
-			"ANY_STYLE" "trigger_kill"
-			}
 		}
 	}
+}
+"StyleVPK"
+{
+	"ID" "VPK_EZ102_RM"
+	"Filename" "ratman"
+}
+"StyleVar"
+{
+	"ID"          "OverFunnelFlicker"
+	"Enabled"     "0"
+	"Name"        "Flickering Ratman Funnel"
+	"Description" "Allow the Ratman Excursion Funnel to randomly shut off briefly. Objects or players travelling in the funnel will not fall out when this occurs."
+	"Style"       "EZ102_RATMAN"
+}
