@@ -1,0 +1,266 @@
+"ID" "Radelite_Package_ratman"
+"Name" "Radelite's Ratman Style"
+"Desc" "The ratman style, originally included in the Radelite Package, moved here for order reasons!"
+"Prerequisites"
+{
+	"Package" "Radelite_package"
+}
+
+"Item"
+{
+	"ID" "ITEM_FIRE_PANEL"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+		{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+			{
+			"ANY_STYLE" "fire_panel"
+			}
+		}
+	}
+
+"Item"
+	{
+	"ID" "ITEM_WATER_BLOCK"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+		{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+			{
+			"ANY_STYLE" "water_block"
+			}
+		}
+	}
+	
+"Item"
+	{
+	"ID" "ITEM_PORTAL_DETECTOR"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+		{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+			{
+				"BEE2_PORTAL_1" "portal_detector_p1"
+				"ANY_STYLE" "portal_detector_p2"
+			}
+		}
+	}
+
+"Item"
+	{
+	"ID" "EMBEDDED_BUTTONS"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+		{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+			{
+			"ANY_STYLE" "embedded_buttons"
+			}
+		}
+	}
+	
+"Item"
+	{
+	"ID" "ITEM_ACTIVATOR_CUBES"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+		{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+			{
+			"ANY_STYLE" "activator_cubes"
+			}
+		}
+	}
+	
+"Item"
+	{
+	"ID" "ITEM_TURRET_DETECTOR"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+		{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+			{
+			"ANY_STYLE" "turret_detector"
+			}
+		}
+	}
+	
+"Item"
+	{
+	"ID" "ITEM_GRAVITY_GUN"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+		{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+			{
+			"ANY_STYLE" "gravity_gun_mk1"
+			}
+		}
+	}
+	
+"Item"
+	{
+	"ID" "ITEM_GRAVITY_GUN_MARK_2"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+		{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+			{
+			"ANY_STYLE" "gravity_gun_mk2"
+			}
+		}
+	}
+	
+"Item"
+	{
+	"ID" "ITEM_PAINT_GUN" 
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+		{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+			{
+			"ANY_STYLE"  "paint_gun_mk1"
+			}
+		}
+	}
+	
+"Item"
+	{
+	"ID" "ITEM_PAINT_GUN_MARK_2"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+		{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+			{
+			"ANY_STYLE" "paint_gun_mk2"
+			}
+		}
+	}
+	
+"Item"
+	{
+	"ID" "ITEM_RADIO"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+		{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+			{
+			"BEE2_CLEAN" "radio_clean"
+			"BEE2_OVERGROWN" "radio_over"
+			"BEE2_PORTAL_1" "radio_p1"
+			"ANY_STYLE" "radio_clean"
+			}
+		}
+	}
+	
+"Item"
+	{
+	"ID" "ITEM_SKYBOX_AREA"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+		{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+			{
+			"ANY_STYLE" "skybox"
+			}
+		}
+	}
+	
+	"Item"
+	{
+	"ID" "ITEM_LIVING_PANEL_LARGE"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+		{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+			{
+			"ANY_STYLE" "living_panel_large"
+			}
+		}
+	}
+	
+	"Item"
+	{
+	"ID" "ITEM_LIVING_PANEL"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+		{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+			{
+			"ANY_STYLE" "living_panel"
+			}
+		}
+	}
+
+	"Item"
+	{
+	"ID" "ITEM_TRIGGER_KILL"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+		{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+			{
+			"ANY_STYLE" "trigger_kill"
+			}
+		}
+	}
