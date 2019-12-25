@@ -15,15 +15,15 @@
 	"Folder" "ratman"
 	"Icon" "styles/ratman.png"
 	"IconLarge" "styles/ratman.png"
-	"VPK_Name" "VPK_BEE2_BTS"
-	"Has_Video" "0"
-	"Base" ""
+	"VPK_Name" "VPK_EZ102_RM"
+	"Has_Video" "1"
+	"Base" "BEE2_OVER"
 	"Description"
 	{
 		"" "original description:"
 		"" "Trial for my own style in bee2"
 		"" ""
-		"" "The ratman style is a mix of overgrowt, destroyed and clean"
+		"" "The ratman style is a mix of overgrowth, destroyed/rebuild and clean"
 		"" "this style was for BEE2.2, but ENDERZOMBI102 ported it to BEE2.4 :D"
 	}
 	"HasVideo" "0"
@@ -63,7 +63,7 @@
 "StyleVar"
 {
 	"ID"          "OverFunnelFlicker"
-	"Enabled"     "0"
+	"Enabled"     "1"
 	"Name"        "Flickering Ratman Funnel"
 	"Description" "Allow the Ratman Excursion Funnel to randomly shut off briefly. Objects or players travelling in the funnel will not fall out when this occurs."
 	"Style"       "EZ102_RATMAN"
