@@ -37,9 +37,8 @@
 	{
 		"icon_folder" "bts"
 		"Sp_entry"
-		{
-			"3" "Danger"
-			"4" "Conveyor"
+        {
+			"1" "Conveyor"
 			"5" "(Not present)"
 			"6" "(Not present)"
 			"7" "(Not present)"
@@ -75,4 +74,31 @@
 	"Enabled"       "0"
 	"Description"   "Add random junk in Toxic Goo."
 	"Style"         "EZ102_RATMAN"
+}
+"SkyBox"
+{
+	"ID"			"SKY_2D_RATMAN"
+	"Name"			"Ratman Sky: The Return"
+	"ShortName"		"Ratman Sky"
+	"Group"			"2D"
+	"Icon"			"styles/ratman.png"
+	"IconLarge"   	"styles/ratman.png"
+	"Material"		"sky_black"
+	"Config"		""
+	"Authors"		"ENDERZOMBI102"
+	"Description"	"Never tried so idk"
+	
+	"Fog"
+	{
+		"start"     "128"
+        "end"       "5000"
+        "density"   "0.95"
+        
+        "primaryColor"      "192 192 192"
+        
+        "tonemap_rate"          "0.25"
+        "tonemap_brightpixels"  "5"
+        "tonemap_exposure_min"  "0.5"
+        "tonemap_exposure_max"  "3"
+	}
 }
