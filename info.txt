@@ -20,11 +20,11 @@
 	"Base" "BEE2_OVER"
 	"Description"
 	{
-		"" "original description:"
+		"" "original description:\n"
 		"" "Trial for my own style in bee2"
-		"" ""
+		"" "\n\n"
 		"" "The ratman style is a mix of overgrowth, destroyed/rebuild and clean"
-		"" "this style was for BEE2.2, but ENDERZOMBI102 ported it to BEE2.4 :D"
+		"" "\nthis style was for BEE2.2, but ENDERZOMBI102 ported it to BEE2.4 :D"
 	}
 	"HasVideo" "0"
 	"Suggested"
